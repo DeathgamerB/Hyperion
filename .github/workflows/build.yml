@@ -58,7 +58,7 @@ jobs:
       - uses: kittaakos/upload-artifact-as-is@v0
         with:
           path: |
-            android/**/build/outputs/apk/debug/*-debug.apk
+            android/**/build/outputs/apk/release/*-release.apk
 
   build-desktop:
     name: Build Desktop executables
